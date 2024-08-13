@@ -22,7 +22,7 @@ const CourseForm = () => {
         };
 
         try {
-            const response = await axios.post('http://192.168.1.9:5000/add-course', courseData, {
+            const response = await axios.post('http://192.168.1.3:5000/add-course', courseData, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
